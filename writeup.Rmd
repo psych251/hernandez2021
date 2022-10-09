@@ -1,0 +1,163 @@
+---
+title: "Replication of Study 1 by Hernandez, Silverman, & Destin (2021, Journal of Experimental Social Psychology)"
+author: "Replication Dr. Ivan Hernandez, ivanhernandez2022@u.northwestern.edu"
+date: "2022-10-09"
+output:
+  word_document: default
+  html_document: default
+  toc: yes
+  toc_depth: 3
+  toc_float:
+    
+    collapsed:false
+---
+##Introduction
+
+The study led by Hernandez and colleagues (2021) is one of the first papers to experimentally test the impact of a strength based framework on perceptions of academic persistence, state self-esteem, and the endorsement of background specific strengths among students of color. The strength-based framework is not a new approach (i.e., community cultural wealth model; Yosso, 2005). Many scholars of color have examined the cultural values that students of color bring into systems of higher education using rich qualitative and correlational approaches. Recently the applied educational intervention field has used this framework to create adaptive interventions that enable students of color to reach academic persistence and achievement. 
+
+For the purposes of promoting open science I am replicating work led by Hernandez and colleagues (2021) because their strength-based experimental paradigm will teach me how to create experimental paradigms that empower students of color to reflect and consider the strengths and values that they bring them as they embark in higher education. I also hope to use the data from this replication to teach me how to clean, analyze, and write scientific reports using RStudio. Altogether, the opportunity to replicate work by Hernandez and colleagues (2021) is going to teach me (1) how to develop strength-based experimental paradigms to inform the development of my intervention work (i.e., my line of research), and (2) prepare with the necessary understanding of open-science, new experimental paradigms, using statistical software (i.e., R Studio, GIT, GITHub,GitBash) which are pivotal skills for the job market post-graduation. 
+
+##Method
+
+Description of Study 1. In this work they recruited 200 university students through Prolific. Their criteria for recruitment were students who had a household income no more than $70,000 a year (i.e., the goal was to target lower income samples). Out of the undergraduates they recruited they had 52.3% White students, 14.1% Asian students, 14.1% Latinx students, 7.5% Multiracial students, 1% Middle Eastern/Arab, .5% American Indian/Native American/Alaska Native, .5% Pacific Islander, 3% unknown ethnic background. It appears that for study one the authors recruited a convenience sample.
+
+###Procedure
+
+First, participants were assigned to one of three conditions: background specific strengths (BSS), active control condition, and the passive control condition. After random assignment students had the complete a writing activity (except for the passive control condition) followed by reporting endorsement of background-specific strengths, academic persistence, and state self-esteem. 
+
+
+###Materials
+
+_Background specific strengths (BSS) manipulation_: "You may have heard or come to believe that certain people have advantages and are more likely to do better in school and in life, like maybe people who have more money or a higher socioeconomic status. You may have even heard an assumption that people from lower socioeconomic status backgrounds are disadvantaged. Actually though, a growing body of empirical research indicates that students from lower socioeconomic status backgrounds have acquired a lot of knowledge, skills, and abilities from their lived experiences (e.g., as a result of adversity). Collectively, we can call these “background-specific strengths. Students from lower socioeconomic status backgrounds have acquired these background-specific strengths from their lived experiences and these unique strengths can serve as assets that can help them in school, that can benefit their schools, and that can benefit society. We acknowledge the multiple strengths of these students and want to learn more about them."
+
+Students were then asked to reflect and respond to the following two questions for five minutes: "(1)What “background-specific strengths” do you have that you have developed or acquired from your lived experiences (associated with your socioeconomic background)? You can think of these as strengths that are unique to you and people from similar backgrounds. In other words, people from other groups (e.g., from higher socioeconomic status) probably wouldn’t have these unique strengths. (2) How can you use these background-specific strengths to help you in your education, to benefit your school, and/or to benefit society?"
+
+After reflecting on these two questions participants were asked to write and reflect the lessons they had learned to another students through their writing and this is known as the "saying is believing technique."
+
+_Active control condition_: Write for five minutes about your schedule. 
+
+_Passive control condition_: No information before self-reporting the primary outcome measures. 
+
+##Measures (Directly from supplementary materials)
+
+_Endorsement of background-specific strengths_ 
+
+Scale 1 (strongly disagree) to 6 (strongly agree)
+1)	I understand what background-specific strengths are. 
+2)	I have certain background-specific strengths that can benefit my school. 
+3)	I have certain background-specific strengths that can benefit society.
+4)	Due to my family's socioeconomic background, I have no background-specific strengths to offer. (reverse scored)
+5)	I am an asset to my school.
+6)	I am an asset to society.
+7)	Due to my socioeconomic background, I have obtained value.
+8)	The background-specific strengths that I have learned growing up have a lot of value that can benefit my school.
+9)	The background-specific strengths that I have learned growing up have a lot of value that can benefit society.
+10)	There are really no strengths I have learned from my lived experiences and background. (reverse scored)
+
+_State self-esteem (adapted from Heatherton & Polivy, 1991)_ 
+
+Scale: 1 (strongly disagree) to 6 (strongly agree)
+1)	I am satisfied with myself.
+2)	I trust in my abilities.
+3)	I am satisfied with my appearance.
+
+_Perceived academic difficulty as impossible (Oyserman, Destin, & Novin, 2015)_ 
+
+Scale: 1 (strongly disagree) to 6 (strongly agree)
+1)	When I feel stuck on a school task, it’s a sign that my effort is better spent elsewhere. 
+2)	Sometimes people work at things that just aren’t meant for them. If a school task feels too difficult, I should move on to something else. 
+3)	Finding a school task really difficult tells me that I can’t complete it successfully. 
+4)	If a school task feels really difficult, it may not be possible for me. 
+
+_Status uncertainty (Destin, Rheinschmidt-Same, & Richeson, 2017)_ 
+
+Scale: 1 (strongly disagree) to 7 (strongly agree)
+1)	My beliefs about where I stand in society often conflict with one another.
+2)	On one day I might have one opinion of my social standing and on another day I might have a different opinion.
+3)	I spend a lot of time wondering about where I stand in society.
+4)	Sometimes I feel that I am not really the social status that others think I am.
+5)	When I think about the kind of person I have been in the past, I'm not sure what it means for my current social standing.
+6)	I seldom experience conflict between where I’ve been and where I’m going in society. (reverse scored; see Destin, Rheinschmidt-Same, & Richeson, 2017 for inclusion decision)
+7)	Sometimes I think it’s easier to identify where other people stand in society than to identify where I stand.
+8)	My beliefs about where I stand in society seem to change frequently.
+9)	If I were asked to describe my standing in society, my description might end up being different from one day to another day.
+10)	Even if I wanted to, I don't think I could tell someone how I view my own social standing.
+11)	In general, I have a clear sense of where I stand in society. (reverse scored)
+12)	It is often hard for me to make up my mind about things because I don't have a clear sense of my status in society.
+
+_Campus belonging (Hurtado & Carter, 1997)_
+
+Scale: 1 (strongly disagree) to 6 (strongly agree) 
+1)	I see myself as a part of the campus community.
+2)	I feel that I am a member of the campus community.
+3)	I feel a sense of belonging to the campus community.
+
+_Academic efficacy (Midgely et al., 2000)_ 
+
+Scale: 1 (strongly disagree) to 6 (strongly agree) 
+1)	I'm certain I can master the skills taught in my courses this year. 
+2)	I'm certain I can figure out how to do the most difficult course work. 
+3)	I can do almost all the work in my courses if I don't give up. 
+4)	Even if the work is hard, I can learn it. 
+5)	I can do even the hardest work in my courses if I try. 
+
+_Self-concept clarity (Campbell et al., 1996)_ 
+
+Scale: 1 (strongly disagree) to 7 (strongly agree)
+1)	My beliefs about myself often conflict with one another.
+2)	On one day I might have one opinion of myself and on another day I might have a different opinion.
+3)	I spend a lot of time wondering about what kind of person I really am.
+4)	Sometimes I feel that I am not really the person that I appear to be.
+5)	When I think about the kind of person I have been in the past, I'm not sure what I was really like.
+6)	I seldom experience conflict between the different aspects of my personality. (reverse scored)
+7)	Sometimes I think I know other people better than I know myself.
+8)	My beliefs about myself seem to change very frequently.
+9)	If I were asked to describe my personality, my description might end up being different from one day to another day.
+10)	Even if I wanted to, I don't think I could tell someone what I'm really like.
+11)	In general, I have a clear sense of who I am and what I am. (reverse scored)
+12)	It is often hard for me to make up my mind about things because I don't really know what I want.
+
+_Attention check and other items_
+
+1)	This item is here to screen out random responding; give a four as your response to this item. [scale from 1 (strongly disagree) – 6 (strongly agree)]
+2)	In general, my social status is an important part of who I am. [Scale: 1 (strongly disagree) to 7 (strongly agree)]
+3)	I feel like I belong at my university. [Scale: 1 (strongly disagree) to 6 (strongly agree)]
+
+###Expected Challenges
+
+Given that this study used a convenience sample of college students' who have a family income below $70,000 a year I do not anticipate challenges. However, I would like to add an additional condition to help inform the development of my own research. Also, in the article they do not report all of the outcome measures they used but they do provide those in the supplementary materials. 
+
+
+
+
+
+
+
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
